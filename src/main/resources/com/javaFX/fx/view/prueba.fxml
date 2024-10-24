@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javaFX.fx.controller.RegisterController">
+   <children>
+      <VBox alignment="CENTER" prefWidth="100.0">
+         <children>
+            <Label text="Prueba" VBox.vgrow="NEVER" />
+            <ImageView fx:id="imagen" fitHeight="309.0" fitWidth="302.0" pickOnBounds="true" styleClass="imageView" VBox.vgrow="ALWAYS">
+               <image>
+                  <Image url="@../img/inicio.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

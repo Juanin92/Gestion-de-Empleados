@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="400.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javaFX.fx.controller.ListViewController">
+   <children>
+      <BorderPane layoutX="5.0" layoutY="51.0" prefHeight="333.0" prefWidth="736.0" StackPane.alignment="CENTER">
+         <center>
+            <TableView fx:id="tvListComplete" maxHeight="2160.0" maxWidth="3840.0" minHeight="400.0" minWidth="745.0" prefHeight="400.0" prefWidth="745.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="colName" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Nombre" />
+                <TableColumn fx:id="colSurname" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Apellido" />
+                  <TableColumn fx:id="colBranch" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Sucursal" />
+                  <TableColumn fx:id="colDepto" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Departamento" />
+                  <TableColumn fx:id="colIncome" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Sueldo" />
+                  <TableColumn fx:id="colDate" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Fecha">
+                     <columns>
+                        <TableColumn fx:id="colEntry" maxWidth="274.0" minWidth="50.0" prefWidth="53.0" text="Entrada" />
+                        <TableColumn fx:id="colExit" maxWidth="274.0" minWidth="50.0" prefWidth="53.0" text="Salida" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn fx:id="colTime" maxWidth="548.0" minWidth="100.0" prefWidth="106.0" text="Cantidad Tiempo" />
+              </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>
